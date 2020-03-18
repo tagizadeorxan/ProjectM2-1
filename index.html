@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>Первое приложение на JS</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -16,7 +14,7 @@
         <h1 class="header-of-page">Calculator</h1>
     </header>
     <main>
-        <article class="calculator-body">
+        <div class="calculator-body">
             <p class="calculator-properties color">Start Amount ($)</p>
             <input type="number" placeholder="Enter start amount" class="input" id="startAmount">
             <p class="calculator-properties color">Month Amount ($)</p>
@@ -28,7 +26,7 @@
             <button class="button" id="calculate-button">Calculate</button>
             <p id="error" class="calculator-properties error"></p>
             <p id="balance" class="calculator-properties error"></p>
-        </article>
+        </div>
     </main>
     <script src="./script.js"></script>
 </body>
