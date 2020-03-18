@@ -38,11 +38,11 @@ else if (time.length ==0 || time<0) {
     let month = Math.abs(time/30);
     console.log(month);
     for(let i=0;i<month;i++) {
-    result = result + monthAmount + result*8/100;
+    result = result + monthAmount + result*depositPercent/100;
 
     } 
 
-    document.getElementById("balance").innerHTML = 'Balance will be: ' + Math.round(result,1);
+    document.getElementById("balance").innerHTML = 'Future value will be: ' + Math.round(result,1);
 
     
 }
