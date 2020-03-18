@@ -1,4 +1,4 @@
-let button = document.getElementById("button");
+let button = document.getElementById("calculate-button");
 let balance = document.getElementById("balance");
 button.addEventListener("click", calculate);
 
@@ -42,7 +42,7 @@ else if (time.length ==0 || time<0) {
 
     } 
 
-    document.getElementById("balance").innerHTML = Math.round(result,1);
+    document.getElementById("balance").innerHTML = 'Balance will be: ' + Math.round(result,1);
 
     
 }
