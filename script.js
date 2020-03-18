@@ -44,6 +44,7 @@ function calculate() {
 
     document.getElementById("balance").innerHTML =
       "Future value will be: " + Math.round(result, 1);
+      alert(Math.round(result, 1));
   }
 }
 
