@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Первое приложение на JS</title>
+    <link rel="stylesheet"  href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class='main'>
+<br>
+<div class='input'>
+    <span class="block">Start Amount ($)</span>
+<input class="block" id="startAmount" type="number">
+</div>
+
+<div class='input'>
+    <span class="block">Monthly Amount</span>
+<input class="block" id="monthAmount" type="number">
+</div>
+
+<div class='input'>
+    <span class="block">Deposit. Percent</span>
+<input class="block" id="depositPercent" type="number">
+</div>
+
+<div class='input'>
+    <span class="block">Time (with days)</span>
+<input class="block" id="time" type="number">
+</div>
+
+<div class='input' >
+<button class="button block" id = "button" type="button" >Calculate</button>
+</div>
+
+<span id="error" class="error block" ></span>
+
+<div>
+    <p class="block">Balance will be: <span id="balance"></span></p>  
+</div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
